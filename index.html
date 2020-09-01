@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01-Joe's Bed and Breakfast</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 id="company"></h1>
+        <br/>
+        <h2 id="slogan"> </h2>
+    </header>
+    <main id="pageName">
+        <h1>Welcome to Joe's!</h1>
+        
+        <h2>What I have learned is:</h2>
+        <ul>
+            <li>I can Build a single and simple webpage with the main elements from top to bottom.</li>
+            <li>I can find and resize correctly an image from the internet and put it into the header using CSS. </li>
+            <li>I can use JavaScript to insert text into an HTML element.</li>
+            <li>I can use JavaScript to insert the current date into the web page.</li>
+            <li>I can style a page and organize it using css properly.</li>
+            <li>I have learned how to push my code from visual studio to a GitHub repository.</li>
+            <li>I have learned how to make my final results show by deploying a complete webpage using Netlify.</li>
+        </ul>
+        <h2>
+            Today is 
+            <script>
+                let theDate = new Date()
+                document.write(theDate.toLocaleDateString());
+            </script>,
+            </br>
+            <script>
+                var name = window.prompt("what is your name?")
+                document.write(" Hello " + name + ", Welcome to the best Bed and Breakfast in UTAH!")
+            </script>
+        </h2>
+        <p id="greetings"> </p>
+        
+    </main>
+    <div class="keepOpen"></div>
+    <footer>
+        <p>&#64;UVU_DGM_2760 &#169; Austin Turner. </p>
+        <p>For educational purposes only by the "Pirates design, inc."</p>
+    </footer>
+    <script type="text/JavaScript" src="js/main.js"></script>
+</body>
+
+</html>
